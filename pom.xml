@@ -87,6 +87,10 @@
             <name>UNIDATA Releases</name>
             <url>https://artifacts.unidata.ucar.edu/content/repositories/unidata-releases/</url>
         </repository>
+        <repository>
+            <id>mvnrepository</id>
+            <url>http://mvnrepository.com/artifact/</url>
+        </repository>
     </repositories>
 
 </project>
