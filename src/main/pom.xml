@@ -76,6 +76,16 @@
           <artifactId>gs-css</artifactId>
           <version>2.21.0</version>
         </dependency>
+        <dependency>
+          <groupId>org.geoserver.community</groupId>
+          <artifactId>gs-mbtiles</artifactId>
+          <version>2.21.0</version>
+        </dependency>
+        <dependency>
+          <groupId>org.geoserver.extension</groupId>
+          <artifactId>gs-mbstyle</artifactId>
+          <version>2.21.0</version>
+        </dependency>
     </dependencies>
 
     <build>
