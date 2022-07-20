@@ -147,7 +147,7 @@
       </init-param>
       <init-param>
         <param-name>cors.allowed.methods</param-name>
-        <param-value>GET</param-value>
+        <param-value>GET,POST,PUT,OPTIONS,HEAD</param-value>
       </init-param>
       <init-param>
         <param-name>cors.allowed.headers</param-name>
