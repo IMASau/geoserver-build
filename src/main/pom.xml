@@ -74,42 +74,42 @@
         <dependency>
           <groupId>org.geoserver.extension</groupId>
           <artifactId>gs-control-flow</artifactId>
-          <version>2.21.0</version>
+          <version>${geoserver.version}</version>
         </dependency>
         <dependency>
           <groupId>org.geoserver.extension</groupId>
           <artifactId>gs-css</artifactId>
-          <version>2.21.0</version>
+          <version>${geoserver.version}</version>
         </dependency>
         <dependency>
           <groupId>org.geoserver.community</groupId>
           <artifactId>gs-mbtiles</artifactId>
-          <version>2.21.0</version>
+          <version>${geoserver.version}</version>
         </dependency>
         <dependency>
           <groupId>org.geoserver.extension</groupId>
           <artifactId>gs-mbstyle</artifactId>
-          <version>2.21.0</version>
+          <version>${geoserver.version}</version>
         </dependency>
         <dependency>
           <groupId>org.geoserver.extension</groupId>
           <artifactId>gs-vectortiles</artifactId>
-          <version>2.21.0</version>
+          <version>${geoserver.version}</version>
         </dependency>
         <dependency>
           <groupId>org.geoserver.extension</groupId>
           <artifactId>gs-ysld</artifactId>
-          <version>2.21.0</version>
+          <version>${geoserver.version}</version>
         </dependency>
         <dependency>
           <groupId>org.geoserver.extension</groupId>
           <artifactId>gs-querylayer</artifactId>
-          <version>2.21.0</version>
+          <version>${geoserver.version}</version>
         </dependency>
         <dependency>
           <groupId>org.geoserver.extension</groupId>
           <artifactId>gs-monitor-core</artifactId>
-          <version>2.21.0</version>
+          <version>${geoserver.version}</version>
         </dependency>
     </dependencies>
 
