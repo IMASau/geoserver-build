@@ -111,6 +111,11 @@
           <artifactId>gs-monitor-core</artifactId>
           <version>${geoserver.version}</version>
         </dependency>
+        <dependency>
+          <groupId>org.geoserver.community</groupId>
+          <artifactId>gs-cog</artifactId>
+          <version>${geoserver.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
