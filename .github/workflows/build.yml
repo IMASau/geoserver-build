@@ -42,5 +42,5 @@ jobs:
           name: Frontend (${{ env.GITHUB_REF_SLUG }} - ${{ env.GITHUB_SHA_SHORT }})
           tag_name: ${{ steps.tag_name.outputs.tag_name }}
           files: |
-            src/main/target/geoserver-0.0.0-imos.war
+            src/main/target/geoserver-*-imas.war
 
