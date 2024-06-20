@@ -5,8 +5,8 @@
     <artifactId>main</artifactId>
     <packaging>war</packaging>
 
-    <name>AODN Geoserver (war)</name>
-    <description>AODN/IMOS Geoserver v${project.version} with XSLT, no GZip and CSV/metadata plugin.</description>
+    <name>AODN/IMAS Geoserver (war)</name>
+    <description>AODN/IMOS/IMAS Geoserver v${geoserver.version} with XSLT, no GZip and CSV/metadata plugin.</description>
     <url>http://imos.org.au</url>
 
     <parent>
@@ -161,7 +161,7 @@
                                 </excludes>
                         </overlay>
                     </overlays>
-                    <warName>geoserver-${project.version}-imos</warName>
+                    <warName>geoserver-${geoserver.version}-imas</warName>
                 </configuration>
             </plugin>
             <plugin>
@@ -182,7 +182,7 @@
                         <overrideDescriptor>src/jetty/override-web.xml</overrideDescriptor>
                         <extraClasspath>src/jetty/database</extraClasspath>
                      </webApp>
-                     <war>${build.directory}/geoserver-${project.version}-imos.war</war>
+                     <war>${build.directory}/geoserver-${geoserver.version}-imas.war</war>
                     <contextXml>src/jetty/context.xml</contextXml>
                 </configuration>
                 <dependencies>
