@@ -5,8 +5,8 @@
     <artifactId>main</artifactId>
     <packaging>war</packaging>
 
-    <name>AODN Geoserver (war)</name>
-    <description>AODN/IMOS Geoserver v${project.version} with XSLT, no GZip and CSV/metadata plugin.</description>
+    <name>AODN/IMAS Geoserver (war)</name>
+    <description>AODN/IMOS/IMAS Geoserver v${geoserver.version} with XSLT, no GZip and CSV/metadata plugin.</description>
     <url>http://imos.org.au</url>
 
     <parent>
@@ -37,11 +37,6 @@
             <artifactId>gs-web-app</artifactId>
             <scope>runtime</scope>
             <type>war</type>
-        </dependency>
-        <dependency>
-            <groupId>org.geoserver</groupId>
-            <artifactId>gs-xslt</artifactId>
-            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.geoserver.web</groupId>
@@ -118,7 +113,12 @@
         </dependency>
         <dependency>
           <groupId>org.geoserver.community</groupId>
-          <artifactId>gs-cog</artifactId>
+          <artifactId>gs-cog-core</artifactId>
+          <version>${geoserver.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>org.geoserver.community</groupId>
+          <artifactId>gs-cog-http</artifactId>
           <version>${geoserver.version}</version>
         </dependency>
         <dependency>
@@ -164,7 +164,7 @@
                                 </excludes>
                         </overlay>
                     </overlays>
-                    <warName>geoserver-${project.version}-imos</warName>
+                    <warName>geoserver-${geoserver.version}-imas</warName>
                 </configuration>
             </plugin>
             <plugin>
@@ -185,7 +185,7 @@
                         <overrideDescriptor>src/jetty/override-web.xml</overrideDescriptor>
                         <extraClasspath>src/jetty/database</extraClasspath>
                      </webApp>
-                     <war>${build.directory}/geoserver-${project.version}-imos.war</war>
+                     <war>${build.directory}/geoserver-${geoserver.version}-imas.war</war>
                     <contextXml>src/jetty/context.xml</contextXml>
                 </configuration>
                 <dependencies>
