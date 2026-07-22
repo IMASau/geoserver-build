@@ -18,7 +18,7 @@ import org.geoserver.platform.GeoServerResourceLoader;
 import org.geoserver.platform.Operation;
 import org.geotools.xsd.EMFUtils;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 import javax.xml.namespace.QName;
 import java.io.File;
 import java.util.List;

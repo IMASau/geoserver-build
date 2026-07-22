@@ -24,15 +24,15 @@
         </dependency>
         <dependency>
             <groupId>org.geoserver</groupId>
-            <artifactId>gs-wfs</artifactId>
+            <artifactId>gs-wfs-core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.wicket</groupId>
             <artifactId>wicket-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
         </dependency>
         <dependency>
             <groupId>commons-dbutils</groupId>

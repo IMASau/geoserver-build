@@ -18,7 +18,7 @@ import org.geotools.api.feature.simple.SimpleFeatureType;
 import org.geotools.api.feature.type.AttributeDescriptor;
 import org.apache.commons.lang3.StringUtils;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

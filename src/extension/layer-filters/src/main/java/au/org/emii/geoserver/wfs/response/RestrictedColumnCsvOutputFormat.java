@@ -21,7 +21,7 @@ import org.geotools.feature.FeatureCollection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.xml.sax.SAXException;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.BufferedWriter;
 import java.io.IOException;

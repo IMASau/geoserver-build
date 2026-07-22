@@ -7,7 +7,7 @@
 
 package au.org.emii.geoserver.extensions.filters.layer.data;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import java.util.*;
 import java.io.Serializable;
 

@@ -58,18 +58,13 @@
             <artifactId>gt-jdbc-sqlserver</artifactId>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.geoserver.extension</groupId>
             <artifactId>gs-control-flow</artifactId>
             <version>${geoserver.version}</version>
-        </dependency>
-        <dependency>
-          <groupId>org.geoserver.extension</groupId>
-          <artifactId>gs-control-flow</artifactId>
-          <version>${geoserver.version}</version>
         </dependency>
         <dependency>
           <groupId>org.geoserver.extension</groupId>
